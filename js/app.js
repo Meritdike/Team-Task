@@ -79,4 +79,32 @@ let result = 10 % 4;
 console.log(result);
 
 // Q11
+// DATA 1
+let meritWeight1 = 78;
+let meritHeight1 = 1.69;
+let meritBMI1Formula1 = meritWeight1/Math.pow(meritHeight1, 2);
+let meritBMI1Formular2 = meritWeight1/(meritHeight1 * meritHeight1);
+console.log(meritBMI1Formula1);
+console.log(meritBMI1Formular2);
 
+let nutjobWeight1 = 92;
+let nutjobHeight1 = 1.95;
+let nutjobBMI1Formula1 = nutjobWeight1/Math.pow(nutjobHeight1, 2);
+let nutjobBMI1Formular2 = nutjobWeight1/(nutjobHeight1 * nutjobHeight1);
+console.log(nutjobBMI1Formula1);
+console.log(nutjobBMI1Formular2);
+
+// DATA 2
+let meritWeight2 = 85;
+let meritHeight2 = 1.76;
+let meritBMI2Formula1 = meritWeight2/Math.pow(meritHeight2, 2);
+let meritBMI2Formular2 = meritWeight2/(meritHeight2 * meritHeight2);
+console.log(meritBMI2Formula1);
+console.log(meritBMI2Formular2);
+
+let nutjobWeight2 = 95;
+let nutjobHeight2 = 1.88;
+let nutjobBMI2Formula1 = nutjobWeight2/Math.pow(nutjobHeight2, 2);
+let nutjobBMI2Formular2 = nutjobWeight2/(nutjobHeight2 * nutjobHeight2);
+console.log(nutjobBMI2Formula1);
+console.log(nutjobBMI2Formular2);
