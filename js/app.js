@@ -68,10 +68,15 @@ function area(r){
 console.log(area(9));
 
 // Q9
-
+let p = 8200;
+let r = 17.5;
+let t = 2.5;
+let simpleInterest = (p * r * t)/100;
+console.log(simpleInterest);
 
 // Q10
 let result = 10 % 4;
 console.log(result);
 
 // Q11
+
