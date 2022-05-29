@@ -84,24 +84,8 @@ section {
     z-index: 1;
 }
 
-h1 {
-    background-color: #1560bd;
-    border-radius: 18px 18px 0 0;
-    padding: 15px;
-}
-
-p{
-    text-align: center;
-}
-
 .bold {
     font-weight: bold;
-}
-
-.team-members {
-    padding: 10px 30px 10px 30px;
-    background-color: #fafafa;
-    border-radius: 0 0 18px 18px;
 }
 
 .row {

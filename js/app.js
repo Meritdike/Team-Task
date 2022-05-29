@@ -2,7 +2,12 @@
 document.querySelector('.artemis').innerHTML = "TEAM-ARTEMIS";
 document.querySelector('.artemis').style.color = 'rgb(243, 226, 226)';
 document.querySelector('.artemis').style.fontWeight = 'bold';
-// document.querySelector('.container').style.width = '80%';
+document.querySelector('.team-members').style.borderRadius = '0 0 18px 18px';
+document.querySelector('.team-members').style.padding = '10px 30px 10px 30px';
+document.querySelector('.team-members').style.backgroundColor = '#fafafa';
+document.querySelector('h1').style.borderRadius = '18px 18px 0 0';
+document.querySelector('h1').style.padding = '18px';
+document.querySelector('h1').style.backgroundColor = '#1560bd';
 
 // Q2
 let teamMembers = ['Merit', 'Abdulsamad', 'Comely', 'Gabriel-Eta Ekpo', 'Emmanuel Stephen', 'Emmanuel Stephen', 'Danny']
