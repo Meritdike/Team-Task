@@ -2,6 +2,7 @@
 document.querySelector('.artemis').innerHTML = "TEAM-ARTEMIS";
 document.querySelector('.artemis').style.color = 'rgb(243, 226, 226)';
 document.querySelector('.artemis').style.fontWeight = 'bold';
+// document.querySelector('.container').style.width = '80%';
 
 // Q2
 let teamMembers = ['Merit', 'Abdulsamad', 'Comely', 'Gabriel-Eta Ekpo', 'Emmanuel Stephen', 'Emmanuel Stephen', 'Danny']

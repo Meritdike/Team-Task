@@ -7,7 +7,7 @@
 section {
     background: linear-gradient(rgba(255,255,255, 0.5), rgba(255,255,255, 0.5)), url(../img/bg.jpg) center no-repeat;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .container {
@@ -22,8 +22,8 @@ section {
 }
 
 .card-body {
-    margin: 14px 0;
-    width: 38%;
+    margin: 22px 0;
+    width: 66vh;
     min-height: 90vh;
     position: relative;
     perspective: 800px;
@@ -33,15 +33,14 @@ section {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: red;
     width: 50%;
     height: 100%;
     transform: rotateY(0deg);
     transform-origin: left;
     transition: transform 2s;
-    background: linear-gradient(rgba(255,255,255, 0.2), rgba(255,255,255, 0.2)), url(../img/card-cover.jpg) repeat;
-    background-size: contain;
-    background-position-x: left;
+    background: linear-gradient(rgba(255,255,255, 0.2), rgba(255,255,255, 0.2)), url(../img/card-cover.jpg) no-repeat;
+    background-size: cover;
+    background-position-x: 0vh;
     border-radius: 18px 0 0 18px;
 }
 
@@ -49,15 +48,14 @@ section {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: blue;
     width: 50%;
     height: 100%;
     transform: rotateY(0deg);
     transform-origin: right;
     transition: transform 2s;
-    background: linear-gradient(rgba(255,255,255, 0.2), rgba(255,255,255, 0.2)), url(../img/card-cover.jpg) repeat;
-    background-size: contain;
-    background-position-x: right;
+    background: linear-gradient(rgba(255,255,255, 0.2), rgba(255,255,255, 0.2)), url(../img/card-cover.jpg) no-repeat;
+    background-size: cover;
+    background-position-x: -33vh;
     border-radius: 0 18px 18px 0;
 }
 
@@ -72,16 +70,16 @@ section {
     transition: transform 1s;
 }
 
-.card:hover .card-body:hover .left-side {
+.card-body:hover .left-side {
     transform: rotateY(-360deg);
-    border-radius: 18px;
+    border-radius: 22px;
 }
-.card:hover .card-body:hover .right-side {
+.card-body:hover .right-side {
     transform: rotateY(360deg);
-    border-radius: 18px;
+    border-radius: 22px;
 }
 
-.card:hover .card-body:hover .back-side {
+.card-body:hover .back-side {
     transform: translateZ(0);
     position: static;
     z-index: 1;
