@@ -1,7 +1,7 @@
 // Q1
-document.querySelector('.artemis').innerHTML = "Team-artemis";
-document.querySelector('.artemis').style.color = '#ffe78e';
-document.querySelector('.card').style.borderRadius = '18px';
+document.querySelector('.artemis').innerHTML = "TEAM-ARTEMIS";
+document.querySelector('.artemis').style.color = 'rgb(243, 226, 226)';
+document.querySelector('.artemis').style.fontWeight = 'bold';
 
 // Q2
 let teamMembers = ['Merit', 'Abdulsamad', 'Comely', 'Gabriel-Eta Ekpo', 'Emmanuel Stephen', 'Emmanuel Stephen', 'Danny']
@@ -94,6 +94,9 @@ let nutjobBMI1Formular2 = nutjobWeight1/(nutjobHeight1 * nutjobHeight1);
 console.log(nutjobBMI1Formula1);
 console.log(nutjobBMI1Formular2);
 
+let meritHigherBMI1 = meritBMI1Formula1 > nutjobBMI1Formula1;
+console.log(meritHigherBMI1);
+
 // DATA 2
 let meritWeight2 = 85;
 let meritHeight2 = 1.76;
@@ -108,3 +111,6 @@ let nutjobBMI2Formula1 = nutjobWeight2/Math.pow(nutjobHeight2, 2);
 let nutjobBMI2Formular2 = nutjobWeight2/(nutjobHeight2 * nutjobHeight2);
 console.log(nutjobBMI2Formula1);
 console.log(nutjobBMI2Formular2);
+
+let meritHigherBMI2 = meritBMI2Formula1 > nutjobBMI2Formula1;
+console.log(meritHigherBMI2);
