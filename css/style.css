@@ -84,21 +84,18 @@ section {
     z-index: 1;
 }
 
-.bold {
-    font-weight: bold;
-}
-
 .row {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 .card-content {
     background-color: #d1dcf3;
     width: 30%;
     border-radius: 7px;
+    margin-bottom: 14px;
     box-shadow: 4px 4px 4px 4px rgba(210, 221, 243, 0.4);
 }
 
@@ -111,9 +108,72 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px 0;
+    margin: 8px 0;
 }
 
 .card-text {
     text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+@media(max-width: 769px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .card-content {
+        width: 90%;
+    }
+
+    .card-body {
+        min-height: 70vh;
+    }
+
+    .card-content {
+        width: 22%;
+        font-size: 10px;
+
+    }
+
+    .row .card-content {
+        margin-bottom: 18px;
+    }
+
+    .team-members {
+        padding: 5px 15px !important;
+    }
+
+    .right-side {
+        background-repeat: repeat;
+    }
+}
+
+@media(max-width: 426px) {
+    h1 {
+        font-size: 16px;
+    }
+
+    .card-content {
+        width: 30%;
+    }
+
+    .right-side {
+        background-repeat: no-repeat;
+        background-position-x: right;
+    }
+}
+
+@media(max-width: 376px) {
+    h1 {
+        font-size: 13px;
+    }
+
+    .right-side {
+        background-repeat: repeat;
+        background-position-x: -24vh;
+    }
 }
