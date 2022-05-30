@@ -120,9 +120,17 @@ section {
 }
 
 
+@media(max-width: 1025px) {
+    h1 {
+        font-size: 22px;
+        padding: 14px !important;
+    }
+}
+
 @media(max-width: 769px) {
     h1 {
         font-size: 20px;
+        padding: 18px !important;
     }
 
     .card-content {
